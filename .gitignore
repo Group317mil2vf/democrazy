@@ -6,7 +6,7 @@
   	<meta name="keywords" content="Democrazy, Don't take your vote for granted, educational purposes">
  	<meta name="author" content="CphBusiness Students">
  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	<!-- source: W3schools - "https://www.w3schools.com/tags/tag_meta.asp" -->
 	<link rel="stylesheet" type="text/css" href="../democrazy/democrazy.css">
 	<title>DemoCrazy</title>
     <script>
@@ -18,6 +18,8 @@
       ga('create', 'UA-100045699-1', 'auto');
       ga('send', 'pageview');
     </script>
+    <!-- source: Google Analytics - "https://developers.google.com/analytics/devguides/collection/analyticsjs/" -->
+    
 </head>
 <body>
 	<div class="logo"><img src="../democrazy/logo.png" alt="LOGO"></div>
