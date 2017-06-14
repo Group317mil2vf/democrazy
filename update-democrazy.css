@@ -1,0 +1,246 @@
+@media only screen and (min-device-width: 1300px) {
+  @font-face {
+    font-family: "LEIXO DEMO";
+    src: url("LEIXO-DEMO.ttf"); }
+  * {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 25px;
+    background-color: #000000;
+    color: #E57543;
+    font-family: 'LEIXO DEMO'; }
+  .logo {
+    margin-top: 20px;
+    margin-right: 10px;
+    text-align: center; }
+  .container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .container .text1 {
+      margin: auto;
+      overflow: auto;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      -webkit-flex-basis: 250px;
+      -ms-flex-preferred-size: 250px;
+      flex-basis: 250px; }
+    .container .text2 {
+      margin: auto;
+      overflow: auto;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      -webkit-flex-basis: 250px;
+      -ms-flex-preferred-size: 250px;
+      flex-basis: 250px; }
+    .container video {
+      width: 800px;
+      height: 480px; }
+  .box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch; }
+    .box .social-media {
+      margin-right: 7.5%; }
+    .box button {
+      margin-left: 7.5%;
+      overflow: auto;
+      display: table-cell;
+      vertical-align: middle;
+      background-color: #E57543;
+      border: none;
+      color: black;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      padding-top: 20px 0px 20px 0px; }
+  .footer {
+    text-align: center;
+    font-size: 12px;
+    margin: 20px;
+    position: relative; } }
+
+@media only screen and (max-width: 1299px) and (min-width: 641px) {
+  @font-face {
+    font-family: "LEIXO DEMO";
+    src: url("LEIXO-DEMO.ttf"); }
+  * {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 16px;
+    background-color: #000000;
+    color: #E57543;
+    font-family: 'LEIXO DEMO'; }
+  .logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center; }
+    .logo img {
+      width: 270px;
+      height: 68px; }
+  .container {
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 10 0px;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .container .text1 {
+      -webkit-box-ordinal-group: 3;
+      -webkit-order: 2;
+      -ms-flex-order: 2;
+      order: 2;
+      height: 0 auto;
+      padding-top: 20px;
+      padding-bottom: 20px; }
+    .container .text2 {
+      -webkit-box-ordinal-group: 4;
+      -webkit-order: 3;
+      -ms-flex-order: 3;
+      order: 3;
+      height: 0 auto;
+      padding-top: 20px;
+      padding-bottom: 20px; }
+    .container video {
+      width: 800px;
+      height: 480px;
+      -webkit-box-ordinal-group: 2;
+      -webkit-order: 1;
+      -ms-flex-order: 1;
+      order: 1;
+      padding-top: 20px;
+      padding-bottom: 20px; }
+  .footer {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .box {
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .box button {
+      margin: 5%;
+      background-color: #E57543;
+      border: none;
+      color: black;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+      padding: 10px; } }
+
+@media only screen and (max-device-width: 640px) {
+  @font-face {
+    font-family: "LEIXO DEMO";
+    src: url("LEIXO-DEMO.ttf"); }
+  * {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 16px;
+    background-color: #000000;
+    color: #E57543;
+    font-family: 'LEIXO DEMO'; }
+  .logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center; }
+    .logo img {
+      width: 270px;
+      height: 68px; }
+  .container {
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 10 0px;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .container .text1 {
+      -webkit-box-ordinal-group: 3;
+      -webkit-order: 2;
+      -ms-flex-order: 2;
+      order: 2;
+      height: 0 auto;
+      padding-top: 20px;
+      padding-bottom: 20px; }
+    .container .text2 {
+      -webkit-box-ordinal-group: 4;
+      -webkit-order: 3;
+      -ms-flex-order: 3;
+      order: 3;
+      height: 0 auto;
+      padding-top: 20px;
+      padding-bottom: 20px; }
+    .container video {
+      -webkit-box-ordinal-group: 2;
+      -webkit-order: 1;
+      -ms-flex-order: 1;
+      order: 1;
+      width: 100%;
+      height: 0 auto;
+      padding-top: 20px;
+      padding-bottom: 20px; }
+  .box {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .box button {
+      margin: 5%;
+      background-color: #E57543;
+      border: none;
+      color: black;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+      padding: 10px; }
+  .footer {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px; } }
